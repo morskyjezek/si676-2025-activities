@@ -3,7 +3,7 @@ layout: post
 title:  "Using FileZilla"
 date:   2025-08-30
 categories: guides filezilla
-published: false
+published: true
 ---
 
 This page describes using FileZilla.
