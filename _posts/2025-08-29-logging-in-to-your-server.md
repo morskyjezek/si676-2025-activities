@@ -140,6 +140,6 @@ hopefully you will appreciate how this tool assists the file transfer process.
 ## Resources
 
 * [Related slide deck illustrating the login process][related-slide-deck]
-* [Using FileZilla Guide]({{ site.baseurl }}{% link _posts/2024-10-30-filezilla-guide.md %})
+* [Using FileZilla Guide]({{ site.baseurl }}{% link _posts/2025-08-30-filezilla-guide.md %})
 
 [related-slide-deck]: https://docs.google.com/presentation/d/1R_Rs1XF0eyaJwHbSTXb51WnWFemaV-OMe1oVdN9qYzk/edit?usp=sharing
