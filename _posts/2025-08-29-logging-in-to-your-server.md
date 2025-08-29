@@ -141,4 +141,4 @@ hopefully you will appreciate how this tool assists the file transfer process.
 
 * [Related slide deck illustrating the login process][related-slide-deck]
 
-[related-slide-deck]: https://docs.google.com/presentation/d/1R_Rs1XF0eyaJwHbSTXb51WnWFemaV-OMe1oVdN9qYzk/edit?usp=sharing
+[related-slide-deck]: https://docs.google.com/presentation/d/1krzUOhkDnHrA0Z_SOdWqmS70SbLF0pD4_7p4VQkvnkQ/edit?usp=sharing
