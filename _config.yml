@@ -1,0 +1,65 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: SI 676 Activities
+email: jajohnst@umich.edu
+description: >- # this means to ignore newlines until "baseurl:"
+  This site contains information about 
+  activities and assignments for SI 676 
+  in the Fall 2025 term.
+  The site is published using the Jekyll static site generator
+  from GitHub.
+baseurl: "/si676-2025-activities" # the subpath of your site, e.g. /blog
+url: "https://morskyjezek.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jesseajohnston
+github_username:  morskyjezek
+course_data_repo_link: https://github.com/morskyjezek/si676-2025-data/tree/main
+site_jekyll_files: https://github.com/morskyjezek/si676-2025-activities
+course_syllabus_link: https://docs.google.com/document/d/1gB5DKamJ38Tt_hfXkIC_lHYeia_Gb_IEqrMP3t7ilPQ/edit?usp=drive_link
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+collections:
+  posts:
+    output: true 
+    permalink: :collection/:title

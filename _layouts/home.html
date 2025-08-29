@@ -1,0 +1,89 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {% assign assignments = site.posts | where: "categories", "assignments" %}
+  {% if assignments.size > 0 %}
+    <h2 class="post-list-heading" id="assignments">Assignments for Term Project</h2>
+    <ul class="post-list">
+      {% for assignment in assignments %}
+      <li>
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta">{{ assignment.date | date: date_format }}</span>{% if assignment.due %} | <span class="post-meta">DUE: {{ assignment.due | date: date_format }}</span>{% endif %}
+        <h3>
+          <a class="post-link" href="{{ assignment.url | relative_url }}">
+            {{ assignment.title | escape }}
+          </a>
+        </h3>
+      </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% assign labs_list = site.posts | where: "categories", "labs" %}
+  {% if labs_list.size > 0 %}
+    <h2 class="post-list-heading" id="labs">Labs</h2>
+    <ul class="post-list">
+      {% for lab in labs_list %}
+      <li>
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta">{{ lab.date | date: date_format }}</span>{% if lab.due %} | <span class="post-meta">DUE: {{ lab.due | date: date_format }}</span>{% endif %}
+        <h3>
+          <a class="post-link" href="{{ lab.url | relative_url }}">
+            {{ lab.title | escape }}
+          </a>
+        </h3>
+      </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% assign guides_list = site.posts | where: "categories", "guides" %}
+  {% if guides_list.size > 0 %}
+    <h2 class="post-list-heading" id="guides">Guides</h2>
+    <ul class="post-list">
+      {% for guide in guides_list %}
+      <li>
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta">{{ guide.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ guide.url | relative_url }}">
+            {{ guide.title | escape }}
+          </a>
+        </h3>
+      </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>{% if post.due %} | <span class="post-meta">DUE: {{ post.due | date: date_format }}</span>{% endif %}
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  {%- endif -%}
+
+</div>
