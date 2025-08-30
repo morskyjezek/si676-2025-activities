@@ -24,8 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   This site contains information about 
   activities and assignments for SI 676 
   in the Fall 2025 term.
-  The site is published using the Jekyll static site generator
-  from GitHub.
+  The site is published from a GitHub repo 
+  using the Jekyll static site generator.
 baseurl: "/si676-2025-activities" # the subpath of your site, e.g. /blog
 url: "https://morskyjezek.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
