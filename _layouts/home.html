@@ -27,25 +27,7 @@ layout: default
     </ul>
   {% endif %}
 
-  {% assign labs_list = site.posts | where: "categories", "labs" %}
-  {% if labs_list.size > 0 %}
-    <h2 class="post-list-heading" id="labs">Labs</h2>
-    <ul class="post-list">
-      {% for lab in labs_list %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ lab.date | date: date_format }}</span>{% if lab.due %} | <span class="post-meta">DUE: {{ lab.due | date: date_format }}</span>{% endif %}
-        <h3>
-          <a class="post-link" href="{{ lab.url | relative_url }}">
-            {{ lab.title | escape }}
-          </a>
-        </h3>
-      </li>
-      {% endfor %}
-    </ul>
-  {% endif %}
-
-  {% assign guides_list = site.posts | where: "categories", "guides" %}
+    {% assign guides_list = site.posts | where: "categories", "guides" %}
   {% if guides_list.size > 0 %}
     <h2 class="post-list-heading" id="guides">Guides</h2>
     <ul class="post-list">
@@ -63,6 +45,23 @@ layout: default
     </ul>
   {% endif %}
 
+  {% assign labs_list = site.posts | where: "categories", "labs" %}
+  {% if labs_list.size > 0 %}
+    <h2 class="post-list-heading" id="labs">Labs</h2>
+    <ul class="post-list">
+      {% for lab in labs_list %}
+      <li>
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta">{{ lab.date | date: date_format }}</span>{% if lab.due %} | <span class="post-meta">DUE: {{ lab.due | date: date_format }}</span>{% endif %}
+        <h3>
+          <a class="post-link" href="{{ lab.url | relative_url }}">
+            {{ lab.title | escape }}
+          </a>
+        </h3>
+      </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
 
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
