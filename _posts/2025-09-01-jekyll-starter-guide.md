@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Setting Up a Jekyll Static Site"
-date:   2024-09-27
+date:   2025-09-01
 categories: activities jekyll guides
-published: false
+published: true
 ---
 
 This page contains tips and pointers on setting up your first Jekyll-based site
@@ -84,4 +84,4 @@ Copy and paste the server address (above, `https://127.0.0.1:4000/`) into a brow
 
 * See [Lab 3][related-lab]
 
-[related-lab]: {{ site.url }}{% link _posts/2024-09-16-lab-3-jekyll-dns.md %}
+[related-lab]: {{ site.url }}TODO link for jekyll lab
