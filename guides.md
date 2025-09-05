@@ -2,6 +2,7 @@
 layout: page
 title: Guides
 permalink: /guides/
+published: false
 ---
 
 This page lists the Guide pages for selected assignments and tasks:
