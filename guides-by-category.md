@@ -36,7 +36,7 @@ published: true
   <ul>
     {% assign category_posts = guides | where_exp: "post", "post.categories contains category" %}
     {% for post in category_posts %}
-        <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> <time datetime="{{ post.date | date_to_xmlschema}}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></li>
+        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <time datetime="{{ post.date | date_to_xmlschema}}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></li>
     {% endfor %}
   </ul>
 {% endfor %}
