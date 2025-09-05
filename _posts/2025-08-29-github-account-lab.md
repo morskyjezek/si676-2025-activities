@@ -3,7 +3,7 @@ layout: post
 title:  "Lab: GitHub Account and Login"
 date:   2025-08-29
 assigned: 2025-08-29
-due:    2024-09-04
+due:    2025-09-04
 categories: activities git github labs
 canvas-link: https://umich.instructure.com/courses/779862/assignments/2877249
 lab-slides: 
