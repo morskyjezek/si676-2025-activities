@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Setting Up a Jekyll Static Site"
-date:   2025-09-01
+date:   2025-09-02
 categories: activities jekyll guides
 published: true
 ---
