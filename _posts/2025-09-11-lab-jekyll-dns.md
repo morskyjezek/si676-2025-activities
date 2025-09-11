@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lab 3: DNS and A Jekyll Static Site"
+title:  "Lab: DNS and A Jekyll Static Site"
 date:   2025-09-11
 assigned: 2025-09-12
 due: 2025-09-18
