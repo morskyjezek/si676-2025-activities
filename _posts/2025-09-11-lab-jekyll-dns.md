@@ -24,8 +24,6 @@ _**NOTE:** There's not really anything to turn in for this section. Hopefully yo
 
 ## Jekyll
 
-_Note: work on this over the next two weeks (due Sep 29)_
-
 1. Initiate Jekyll in your local repo.
   * GitHub "[Create site with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)" - choose options for your operating system!
 2. Publish your Jekyll serverless site to your GitHub repo (above site describes these steps as well).
