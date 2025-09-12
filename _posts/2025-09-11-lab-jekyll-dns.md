@@ -14,9 +14,9 @@ This page contains the questions for the Lab on DNS and Jekyll
 
 _**NOTE:** If you already published your site during class, there may not really anything to turn in for this section. Hopefully you worked through these first steps in class._
 
-## Jekyll
+## Task 1: Set Up Jekyll and Publish Your Site
 
-_**NOTE:** The workflow outlined here differs somewhat from that explained on GitHub's pages. These are, nonetheless, functionally the same process._
+_**NOTE:** The workflow outlined here differs from the steps outlined on GitHub's pages. These are, nonetheless, functionally the same process. You can use either sequence of steps to accomplish the task._
 
 1. Create a new folder/directory on your local computer. This will be the location you use for building and developing your Jekyll site. It's likely you won't want to keep this around long term, so give it a name like `jekyll-test-site-1` (or something similarly generic)
 1. Initiate Jekyll in your local folder. To do this, navigate your command prompt to the folder you just created (use the `cd`) command. Then, create your Jekyll shell using the command `jekyll new --skip-bundle .`. This will create the Jekyll site within the current directory.
