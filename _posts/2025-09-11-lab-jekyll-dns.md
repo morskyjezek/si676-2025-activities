@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lab: DNS and A Jekyll Static Site"
+title:  "Lab: A Jekyll Static Site and DNS"
 date:   2025-09-11
 assigned: 2025-09-12
 due: 2025-09-18
@@ -9,7 +9,6 @@ canvas-link: https://umich.instructure.com/courses/779862/assignments/2877253
 key: #lab-3-key
 published: true
 ---
-
 
 This page contains the questions for the Lab on DNS and Jekyll
 
