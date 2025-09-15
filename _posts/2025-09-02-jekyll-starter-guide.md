@@ -50,7 +50,7 @@ bundle exec jekyll serve
 
 If things are working well, you should see something like this print on your terminal window:
 
-```rb
+```
       Generating... 
        Jekyll Feed: Generating feed for posts
                     done in 0.19 seconds.
