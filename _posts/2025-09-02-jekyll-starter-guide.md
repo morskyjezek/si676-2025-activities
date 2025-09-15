@@ -39,22 +39,22 @@ Depending on the Jekyll version and theme, you may not see all of the folders.
 New pages can be created by copying from the `index.markdown` file
 or by creating new markdown or HTML files.
 
-**Tip: For any new pages, make sure you add page front matter gated by a three-hyphen line (`---`). You can copy this from existing pages or create your own. Common elements are `title`,
+***Tip:*** For any new pages, make sure you add page front matter gated by a three-hyphen line (`---`). You can copy this from existing pages or create your own. Common elements are `title`,
 `permalink`, `date`, and `layout`, though every page will vary based on the content type and your site design.
 
 To test your site and "serve" it locally, use the serve command from the terminal:
 
-```
+```rb
 bundle exec jekyll serve
 ```
 
 If things are working well, you should see something like this print on your terminal window:
 
-```
+```rb
       Generating... 
        Jekyll Feed: Generating feed for posts
                     done in 0.19 seconds.
- Auto-regeneration: enabled for '/Users/jajohnst/Desktop/si676-assignments-2024'
+ Auto-regeneration: enabled for '/Users/jajohnst/Desktop/si676-assignments-2025'
     Server address: http://127.0.0.1:4000//
   Server running... press ctrl-c to stop.
 ```
