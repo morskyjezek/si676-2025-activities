@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lab 4: Setting Up CollectionBuilder"
+title:  "Lab: Setting Up CollectionBuilder"
 date:   2025-09-18
 assigned: 2025-09-19
 due: 2025-09-25
