@@ -6,13 +6,13 @@ assigned: 2025-09-12
 due: 2025-09-18
 categories: activities web dns jekyll serverless labs
 canvas-link: https://umich.instructure.com/courses/779862/assignments/2877253
-key: #lab-3-key
+key: lab-3-key
 published: true
 ---
 
 This page contains the questions for the Lab on DNS and Jekyll
 
-_**NOTE:** If you already published your site during class, there may not really anything to turn in for this section. Hopefully you worked through these first steps in class._
+_**NOTE:** If you already published your site during class, there may not be much to complete for this section._
 
 ## Task 1: Set Up Jekyll and Publish Your Site
 
