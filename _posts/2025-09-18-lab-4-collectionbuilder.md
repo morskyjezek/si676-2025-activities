@@ -21,7 +21,7 @@ To do this, follow the instructions at CollectionBuilder: [CSV Walkthrough](http
 
 Once set up, make some basic modifications to your site (most of these can be changed in the `_config.yml` file):
 
-- Give your site an original name (this is set in the `_config.yml`)
+- Give your site an original name
 - Selecting an alternative featured image (what appears on the main page behind the site title)
 - Modify the text on the "About" page (note that in the CB Builder framework, all of the top-level pages are in a folder called `pages`) and you should see some markup text there already as a placeholder (remove that text and add in something of your own)
 
