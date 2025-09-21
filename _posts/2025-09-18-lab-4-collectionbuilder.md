@@ -13,18 +13,21 @@ published: true
 This page contains the information for *{{ page.title }}*.
 
 This assignment is similar to last week's: you are setting up a Jekyll site, but this time
-you will usie an existing site structure and framework called CollectionBuilder.
+you will usie an existing site structure and framework called CollectionBuilder (CB).
 First, you will need to set up a new repo (I would suggest something `collection-builder-test` or `demo-collection`).
 Then, make sure it works with Jekyll.
 Finally, install and configure the CollectionBuilder platform.
 To do this, follow the instructions at CollectionBuilder: [CSV Walkthrough](https://collectionbuilder.github.io/cb-docs/docs/walkthroughs/csv-walkthrough/).
 
-Once set up, make some basic modifications to your site. For example, give it an original name (use the `_config.yml`),
-try selecting an alternative featured image to the default, etc.
+Once set up, make some basic modifications to your site (most of these can be changed in the `_config.yml` file):
 
-**Note 1:** Keep your thinking hats on. Some of the steps you don't need to follow exactly (for example, you don't need to sign up for a GitHub account, you already have that). Your goal is a working site, the instructions give you the steps to get there, but you may need to address specific issues that come up with your site.
+- Give your site an original name (this is set in the `_config.yml`)
+- Selecting an alternative featured image (what appears on the main page behind the site title)
+- Modify the text on the "About" page (note that in the CB Builder framework, all of the top-level pages are in a folder called `pages`) and you should see some markup text there already as a placeholder (remove that text and add in something of your own)
 
-**Note 2:** you should not need ImageMagick or GhostScript at this point, unless you want to experiment with adding objects and metadata of your own.
+**Note 1:** Keep your thinking hats on. There are a few steps in the CB guide that you won't need to follow exactly (for example, you don't need to sign up for a GitHub account, you already have that). Your goal is a working site, the instructions give you the steps to get there, but there may still be some specific issues you will need to address for your site.
+
+**Note 2:** If you see any errors about missing packages or helpers, note that you should not need ImageMagick or GhostScript at this point, unless you want to experiment with adding objects and metadata of your own.
 
 ## Deliverables
 
@@ -33,5 +36,5 @@ try selecting an alternative featured image to the default, etc.
 
 ## Resources
 
-* [Jekyll Guide]({{ site.url }}{% link _posts/2025-09-02-jekyll-starter-guide.md %})
-* [Assignment page on canvas]({{ page.canvas-link }})
+- [Jekyll Guide]({{ site.url }}{% link _posts/2025-09-02-jekyll-starter-guide.md %})
+- [Assignment page on canvas]({{ page.canvas-link }})
