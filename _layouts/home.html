@@ -52,7 +52,7 @@ layout: default
       {% for lab in labs_list %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ lab.date | date: date_format }}</span>{% if lab.due %} | <span class="post-meta">DUE: {{ lab.due | date: date_format }}</span>{% endif %}
+        {% if lab.due %}<span class="post-meta">DUE: {{ lab.due | date: date_format }}</span>{% endif %}
         <h3>
           <a class="post-link" href="{{ lab.url | relative_url }}">
             {{ lab.title | escape }}
