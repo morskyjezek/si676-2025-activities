@@ -60,4 +60,4 @@ Follow these steps to set up a new GitHub repository and connect it to a repo on
 * [Accompanying slides][slides]
 * [Assignment page on canvas]({{ page.canvas-link }})
 
-[slides]: https://docs.google.com/presentation/d/1E8HexG1lsBXvF8NCetEsjxatbbMdWikADyXlVNT83GE/edit?usp=sharing
+[slides]: https://docs.google.com/presentation/d/1E8HexG1lsBXvF8NCetEsjxatbbMdWikADyXlVNT83GE/edit?usp=drive_link
