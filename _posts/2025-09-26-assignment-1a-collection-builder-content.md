@@ -12,17 +12,14 @@ published: true
 
 This page contains the information for *{{ page.title }}*.
 
-**Note:** for the following questions that request Python code as your response,
-you may provide or share a link to a `.py` file or a Jupyter notebook (`.ipynb` is the file extension for notebooks.)
-
-## Part Two: Adding Content to Your CB Collection Site
+## Adding Content to Your CB Collection Site
 
 This assignment builds on the CollectionBuilder template site that you created last week.
 You should use the site you created in [last week's lab]({{ site.baseurl }}{% post_url 2025-09-18-lab-4-collectionbuilder %}).
 
 Your task is to gather the components for the digital items represented by
 the URIs located at the Library of Congress's namespace (i.e., `loc.gov`) and indicated in
-the file (`loc-resource-list.txt`)[https://github.com/morskyjezek/si676-2025-data/blob/main/collection-site-materials/loc-resource-list.txt] located in the course data files repository.
+the file [`loc-resource-list.txt` located in the course data files repository](https://github.com/morskyjezek/si676-2025-data/blob/main/collection-site-materials/loc-resource-list.txt).
 
 You will need: a digital image file for each one, and as much metadata about each as you can find. Your goal is to restructure all of this into information
 that CollectionBuilder can use, then republish it on your site.
@@ -57,7 +54,7 @@ To do this, you may use the [sample CSV template provided in the course data rep
 ## Deliverables
 
 - Link to your updated and working CollectionBuilder site,
-  now populated with the five items you created metadata for
+  now populated with the four items that you created metadata for
   (all still publishing from your GitHub repo)
 - Invite the course instructor to collaborate on the repo
 
