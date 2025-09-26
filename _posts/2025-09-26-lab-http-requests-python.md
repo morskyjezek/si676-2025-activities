@@ -36,7 +36,7 @@ which is intended to be a stable identifier that can provide a consistent
 URI for any item in the Library's collections.
 The pattern for these URIs is `https://lccn.loc.gov/ + LCCN`.
 
-Using the URIs that you craeted in the previous example, identify an LC permalink for each of the resources. To do this, look at the information provided about each resource, identify the LCCN, and then create the permalink.
+Using the URIs that you created in the previous example, identify an LC permalink for each of the resources. To do this, look at the information provided about each resource, identify the LCCN, and then create the permalink.
 
 ### 3. Retrieve JSON data for items
 
