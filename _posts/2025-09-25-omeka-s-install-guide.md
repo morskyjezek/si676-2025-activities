@@ -1,16 +1,16 @@
 ---
 layout: post
 title:  "Omeka S Install Guide"
-date:   2024-11-10
+date:   2025-09-25
 categories: guides omeka
-published: false
+published: true
 ---
 
 This page describes how to set up Omeka S on your servers.
 
 ## Installing Omeka S Manually
 
-This is a multi-step process. In case you were wondering, it is unlikely you would have to install the tools in this way (a more likely scenario is that your server has a helper install tool; one common one is called Softaculous). Even so, installing this way helps you to understand the overall architecture of the LAMP server, how the different elements interact (in this step, particularly the file system - LINUX - and databases - MySQL). The Apache server is handling the HTTP requests and tasks that display the cPanel interface, and any of the interactions between the platform components are likely communicating to the databases via PHP.
+This is a multi-step process. In case you were wondering, it is unlikely you would have to install the tools in this way (a more likely scenario is that your server has a helper install tool; one common one is called *Softaculous*). Even so, installing this way helps you to understand the overall architecture of the LAMP server, how the different elements interact (in this step, particularly the file system - LINUX - and databases - MySQL). The Apache server is handling the HTTP requests and tasks that display the cPanel interface, and any of the interactions between the platform components are likely communicating to the databases via PHP.
 For the most part, though, you don’t need to worry about how those components interact once this installation step is completed.
 
 The manual install process has a few main steps:
@@ -38,10 +38,10 @@ Main steps include:
 
 There are various ways that you can do this. You can use the file manager tool within cPanel, you can use ssh and mkdir, or you can create a new directory using FileZilla. **Whatever option you choose, make sure that the directory is located in the server’s `public_html` directory.** Keep in mind that the folder name you choose will shape the URLs for your repository, so choose something descriptive but also simple, like `omeka` or `omekas`.
 
-In the above example, if your username was `umsifan` and your directory was `omekas`, your site’s URI would look like this: 
+In the above example, if your username was `umsifan` and your directory was `omekas`, your site’s URI would look like this:
 
 ```
-http://umsifan.projectst.si.umich.edu/omekas/
+http://umsifan.si676.si.umich.edu/omekas/
 ```
 
 #### Create a New SQL Database on Your Server
@@ -101,11 +101,11 @@ After the file transfer process is complete, you should be able to navigate in t
 
 If you are seeing a page like the one above, then your Omeka S instance should be ready to go. To get started, fill in the initial user form and click the “Submit” button at the bottom of the page.
 
-The final steps are to configure Omeka S with new sites, modules, users, and the collection content. To get started on that, the next step is [Omeka S configuration]({{ site.baseurl }}{% link _posts/2024-11-11-omeka-s-configuration-guide.md %}).
+The final steps are to configure Omeka S with new sites, modules, users, and the collection content. To get started on that, the next step is [Omeka S configuration]({{ site.baseurl }}{% link _posts/2025-09-26-omeka-s-configuration-guide.md %}).
 
 ## Resources
 
 * [Related slide deck illustrating the Omeka S install process][related-slide-deck]
-* [Guide to logging in to your server]({{ site.baseurl }}{% link _posts/2024-11-04-logging-in-to-your-server.md %})
+* [Guide to logging in to your server]({{ site.baseurl }}{% link _posts/2025-08-29-logging-in-to-your-server.md %})
 
-[related-slide-deck]: https://docs.google.com/presentation/d/13dsV_zzjydT2sm4ogyIRCyL17aZDw1BX2O5oLEZ1yPk/edit?usp=sharing
+[related-slide-deck]: 

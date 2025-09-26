@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Adding Vocabularies to Omeka S"
-date:   2024-11-15
+date:   2025-09-28
 categories: guides omeka vocabularies
-published: false
+published: true
 ---
 
 This document describes the process of adding a Vocabulary to your Omeka S installation. Note that Omeka also provides instructions about using Vocabularies at [https://omeka.org/s/docs/user-manual/content/vocabularies/](https://omeka.org/s/docs/user-manual/content/vocabularies/). In addition to this step-by-step document, you may wish to review Omeka S documentation at [https://omeka.org/s/docs/user-manual/content/vocabularies/#add-a-vocabulary](https://omeka.org/s/docs/user-manual/content/vocabularies/#add-a-vocabulary).
@@ -26,8 +26,6 @@ The basic steps to import a vocabulary are as follows:
   - Once you complete the form, click the “import” button. If you are successful, you should see the list of Vocabularies, which now will include the additional Vocabulary.
   ![Omeka S Vocabulary import success screen for the MODS vocabulary]({{ site.url }}{{ site.baseurl }}/assets/omekas-mods-imported.jpg "Omeka S Vocabulary import success screen"){:style="border: 1px solid black;"}
 
-## Resources
+## Omeka-Related Resources
 
-* [Omeka S Installation Guide]({{ site.baseurl }}{% post_url 2024-11-10-omeka-s-install-guide %})
-* [Omeka S Configuration Guide]({{ site.baseurl }}{% post_url 2024-11-11-omeka-s-configuration-guide %})
-* [Omeka S Adding Modules]({{ site.baseurl }}{% link _posts/2024-11-13-adding-omeka-s-modules.md %})
+{% include omeka-guides %}
