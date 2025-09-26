@@ -27,7 +27,7 @@ These instructions assume that you already have a working Omeka S instance, and 
   - [CSV Import module](https://omeka.org/s/modules/CSVImport/)
   - [Common](https://omeka.org/s/modules/Common/) - a helper module
   - [OAI-PMH Repository module](https://omeka.org/s/modules/OaiPmhRepository/)
-6. Add at least one additional vocabulary. This process is described in more detail in the [Guide to Installing Vocabularies in Omeka S]({{ site.baseurl }}{% link _posts/2025-09-26-omeka-s-adding-vocabularies.md %}). For a quick start, use MODS ([Metadata Object Description Schema](https://www.loc.gov/standards/mods)). Use the “Vocabularies” option in the left menu, choose the “Import New Vocabulary”, then:
+6. Add at least one additional vocabulary. This process is described in more detail in the [Guide to Installing Vocabularies in Omeka S]({% post_url 2025-09-26-omeka-s-adding-vocabularies %}). For a quick start, use MODS ([Metadata Object Description Schema](https://www.loc.gov/standards/mods)). Use the “Vocabularies” option in the left menu, choose the “Import New Vocabulary”, then:
   - Name/Label: `MODS 1`
   - Namespace URI: `http://www.loc.gov/mods/rdf/v1`
   - Namespace prefix: `mods`
