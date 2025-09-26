@@ -5,7 +5,7 @@ date:   2025-09-25
 assigned: 2024-09-26
 due: 2025-10-02
 categories: assignments web collectionbuilder jekyll
-canvas-link: 
+canvas-link: https://umich.instructure.com/courses/779862/assignments/2877244
 published: true
 ---
 
