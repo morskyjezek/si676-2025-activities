@@ -16,10 +16,10 @@ For the most part, though, you don’t need to worry about how those components 
 The manual install process has a few main steps:
 1. Get the server ready.
   - Set up a place the program can “live” in the file structure.
-  - Set up a database and database user agents.  
+  - Set up a database and database user agents.
 2. Get the files for the application ready:
   - Download the Omeka S files (in .ZIP) from the Omeka server at https://omeka.org/s/download/. 
-  - Unzip the files locally and prep them (this is mostly the addition of your database user information).  
+  - Unzip the files locally and prep them (this is mostly the addition of your database user information).
 3. Put the files on the server. This is mostly transferring the Omeka S program files to your server.
 4. Configure the web application. This is relatively basic and involves creating an initial login for the Omeka S platform (explained below).
 
