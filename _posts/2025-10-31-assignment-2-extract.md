@@ -1,22 +1,25 @@
 ---
 layout: post
-title:  "Collection Building Assignment: Extract Collection Data (Step 1)"
-date:   2024-10-28
-assigned: 2024-10-28
-due: 2024-11-08
-categories: activities assignments
-canvas-link: https://umich.instructure.com/courses/698670/assignments/2472574
-published: false
+title:  "Assignment 2: Extract Collection Data"
+date:   2025-09-26
+assigned: 2025-10-02
+due: 2025-10-31
+categories: activities assignments python
+canvas-link: 
+published: true
 ---
 
-This page contains the information for *{{ page.title }}* [Canvas link]({{ page.canvas-link }}).
+This page contains the information for *{{ page.title }}*.
 
 In this step of the course project to build multiple collections platforms,
-you are working to extract data for your collection sites.
-The initial round of collection setup will use a common set of data.
-This assignment is the step when you will collect that data.
+you are working to *extract* data for your collection sites.
+this is the first step in building up a generic workflow that could
+be described as *extract, transform, load*, or *ETL*.
+This assignment is the step when you will collect, or "extract", that data
+from another source. The next step will be to prepare, or "transform"
+the data into a format that is possible for your collection site to ingest.
 In later steps, you will make final configurations of your sites,
-transform the data, and finally load (or ingest) the collection content.
+transform the data, and ingest, or "load" the content into your new sites.
 
 ## Extract Collection Data
 
@@ -84,7 +87,7 @@ In that case, you can skip problematic items. But you should get the majority, a
 
 ### Two Submission Options
 
-**Option One:** a link to a GitHub repository where you have created the code and saved the files.
+**Option One:** a link to a file or folder in a GitHub repository where you have provided the files and saved the code.
 It may be a private repo, as long as you have added the instructor as a collaborator with view permissions. The repo URL may be provided via Canvas.
 
 **Option Two:** a zip file, uploaded on Canvas, that contains the extracted material in a directory.
@@ -99,7 +102,6 @@ and a directory with JSON item files representing each item in the collection.
 * [Sample Collection List CSV][sample-collection-list-csv]
 * [Example pulling a collection list from loc.gov][loc-gov-collection-list-demo]
 * [Example harvesting JSON item data and images from loc.gov][loc-gov-item-demo]
-* [Collection Builder Starter Guide]({{ site.baseurl }}{% link _posts/2024-10-06-collectionbuilder-guide.md %})
 
 [loc-gov-collection-list-demo]: https://github.com/morskyjezek/si676-2024-data/blob/main/examples/assignment-extract-1-collection-list.ipynb
 [sample-collection-list-csv]: https://github.com/morskyjezek/si676-2024-data/blob/main/collection-project/collection_set_list-sample.csv
