@@ -7,7 +7,7 @@ due:    2025-09-11
 categories: activities git github labs
 canvas-link: https://umich.instructure.com/courses/779862/assignments/2885598
 lab-slides: https://docs.google.com/presentation/d/1aF_TyXKo35D3pHtD1a-1HLEqmq9JOPRxeElGGqGLIlo/edit?usp=sharing
-key:    
+key:    lab-2-key
 published: true
 ---
 
