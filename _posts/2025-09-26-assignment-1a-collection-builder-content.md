@@ -56,7 +56,6 @@ To do this, you may use the [sample CSV template provided in the course data rep
 
 ## Deliverables
 
-* Answers to the requests lab (upload via Canvas)
 * Link to your updated and working CollectionBuilder site,
   now populated with the five items you created metadata for
   (all still publishing from your GitHub repo)
