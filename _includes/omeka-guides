@@ -1,0 +1,7 @@
+{% assign omeka_posts = site.posts | where: "categories", "omeka" | sort: due | reverse %}
+
+{% if omeka_posts.size > 0 %}
+<ul>
+  {% for post in omeka_posts %}<li><a href="{{ post.url }}">{{ post.title }}</a></li>{% endfor %}
+</ul>
+{% endif %}
