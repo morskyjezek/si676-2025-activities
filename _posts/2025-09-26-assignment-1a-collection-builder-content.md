@@ -1,13 +1,12 @@
 ---
 layout: post
-title:  "Lab 5: Adding Content to Your CollectionBuilder Site"
-date:   2025-09-21
+title:  "Assignment 1a: Adding Content to Your CollectionBuilder Site"
+date:   2025-09-25
 assigned: 2024-09-26
 due: 2025-10-02
-categories: activities web collectionbuilder http requests python jekyll labs
+categories: assignments web collectionbuilder jekyll
 canvas-link: 
-key: # lab-5-key
-published: false
+published: true
 ---
 
 
@@ -21,16 +20,9 @@ you may provide or share a link to a `.py` file or a Jupyter notebook (`.ipynb` 
 This assignment builds on the CollectionBuilder template site that you created last week.
 You should use the site you created in [last week's lab]({{ site.baseurl }}{% post_url 2025-09-18-lab-4-collectionbuilder %}).
 
-Your task is to gather the components for the five digital items represented by
-the following URIs located at the Library of Congress's namespace (i.e., `loc.gov`):
-
-```
-resource/ds.06560/
-resource/ppmsca.18016/
-resource/hhh.ok0012.sheet/?sp=8&q=hhh.ok0012
-resource/cph.3f05183/
-resource/highsm.20336/
-```
+Your task is to gather the components for the digital items represented by
+the URIs located at the Library of Congress's namespace (i.e., `loc.gov`) and indicated in
+the file (`loc-resource-list.txt`)[https://github.com/morskyjezek/si676-2025-data/blob/main/collection-site-materials/loc-resource-list.txt] located in the course data files repository.
 
 You will need: a digital image file for each one, and as much metadata about each as you can find. Your goal is to restructure all of this into information
 that CollectionBuilder can use, then republish it on your site.
