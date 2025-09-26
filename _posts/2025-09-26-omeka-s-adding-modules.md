@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Adding Modules to Omeka S"
-date:   2025-09-27
+date:   2025-09-26
 categories: guides omeka filezilla ssh
 published: true
 ---
