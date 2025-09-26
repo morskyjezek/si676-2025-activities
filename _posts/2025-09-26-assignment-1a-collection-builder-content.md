@@ -68,5 +68,5 @@ To do this, you may use the [sample CSV template provided in the course data rep
 * [Jekyll Guide]({{ site.url }}{% post_url 2025-09-02-jekyll-starter-guide %})
 * [Assignment page on canvas]({{ page.canvas-link }})
 
-[csv-template]: https://github.com/morskyjezek/si676-2024-data/blob/main/collection-project/cb-metadata-template.csv
+[csv-template]: https://github.com/morskyjezek/si676-2025-data/blob/main/collection-site-materials/metadata-template-cb.csv
 [sample-item-page]: https://morskyjezek.github.io/cb-test-turbo-octo-sniffle/items/nc_047.html
