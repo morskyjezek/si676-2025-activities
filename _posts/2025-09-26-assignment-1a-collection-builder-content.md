@@ -56,16 +56,16 @@ To do this, you may use the [sample CSV template provided in the course data rep
 
 ## Deliverables
 
-* Link to your updated and working CollectionBuilder site,
+- Link to your updated and working CollectionBuilder site,
   now populated with the five items you created metadata for
   (all still publishing from your GitHub repo)
-* Invite the course instructor to collaborate on the repo
+- Invite the course instructor to collaborate on the repo
 
 ## Resources
 
-* [Collection Builder Guide]({{ site.url }}{% post_url 2025-09-20-collectionbuilder-guide %})
-* [Jekyll Guide]({{ site.url }}{% post_url 2025-09-02-jekyll-starter-guide %})
-* [Assignment page on canvas]({{ page.canvas-link }})
+- [Collection Builder Guide]({{ site.url }}{% post_url 2025-09-20-collectionbuilder-guide %})
+- [Jekyll Guide]({{ site.url }}{% post_url 2025-09-02-jekyll-starter-guide %})
+- [Assignment page on canvas]({{ page.canvas-link }})
 
 [csv-template]: https://github.com/morskyjezek/si676-2025-data/blob/main/collection-site-materials/metadata-template-cb.csv
 [sample-item-page]: https://morskyjezek.github.io/cb-test-turbo-octo-sniffle/items/nc_047.html
