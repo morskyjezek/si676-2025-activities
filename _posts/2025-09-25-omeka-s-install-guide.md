@@ -3,7 +3,7 @@ layout: post
 title:  "Omeka S Install Guide"
 date:   2025-09-25
 categories: guides omeka
-published: false
+published: true
 ---
 
 This page describes how to set up Omeka S on your servers.
