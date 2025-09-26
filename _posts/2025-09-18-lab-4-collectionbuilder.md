@@ -6,7 +6,7 @@ assigned: 2025-09-19
 due: 2025-09-25
 categories: activities web jekyll collectionbuilder labs
 canvas-link: https://umich.instructure.com/courses/779862/assignments/2877254
-key: 
+key: lab-4-key
 published: true
 ---
 
