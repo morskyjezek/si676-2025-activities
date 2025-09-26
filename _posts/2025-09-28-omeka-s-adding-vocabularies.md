@@ -3,7 +3,7 @@ layout: post
 title:  "Adding Vocabularies to Omeka S"
 date:   2025-09-28
 categories: guides omeka vocabularies
-published: true
+published: false
 ---
 
 This document describes the process of adding a Vocabulary to your Omeka S installation. Note that Omeka also provides instructions about using Vocabularies at [https://omeka.org/s/docs/user-manual/content/vocabularies/](https://omeka.org/s/docs/user-manual/content/vocabularies/). In addition to this step-by-step document, you may wish to review Omeka S documentation at [https://omeka.org/s/docs/user-manual/content/vocabularies/#add-a-vocabulary](https://omeka.org/s/docs/user-manual/content/vocabularies/#add-a-vocabulary).
