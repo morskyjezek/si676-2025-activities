@@ -2,26 +2,27 @@
 layout: post
 title:  "Omeka S Install Guide"
 date:   2025-09-25
-categories: guides omeka
+categories: guides omeka servers
 published: true
 ---
 
-This page describes how to set up Omeka S on your servers.
+This page describes how to install Omeka S on your servers. This is a multi-step process, which requires you to gather the Omeka S files, configure and prepare them, set up a database for the platform to use, and finally making all of that work on your LAMP server.
+
+In case you were wondering, it is unlikely you would have to install the tools in this way, but hopefully this will help you to see how the various components fit together. It is more likely that your server will have a tool that helps you to install things like this. One common one is called *Softaculous*. Installing Omeka "manually" like this requires you to work with the various elements of the overall LAMP server architecture, particularly the file system - LINUX - and databases - MySQL. The Apache server is handling the HTTP requests and tasks that display the cPanel interface, and any of the interactions between the platform components are likely communicating to the databases via PHP.
+For the most part, though, you don’t need to worry about how those components interact once this installation step is completed.
 
 ## Installing Omeka S Manually
 
-This is a multi-step process. In case you were wondering, it is unlikely you would have to install the tools in this way (a more likely scenario is that your server has a helper install tool; one common one is called *Softaculous*). Even so, installing this way helps you to understand the overall architecture of the LAMP server, how the different elements interact (in this step, particularly the file system - LINUX - and databases - MySQL). The Apache server is handling the HTTP requests and tasks that display the cPanel interface, and any of the interactions between the platform components are likely communicating to the databases via PHP.
-For the most part, though, you don’t need to worry about how those components interact once this installation step is completed.
-
 The manual install process has a few main steps:
-1. Get the server ready.
-  - Set up a place the program can “live” in the file structure.
+
+1. Configure your server (i.e., "get the server ready"):
+  - Ensure there's a place where Omeka S can "live" on the server.
   - Set up a database and database user agents.
-2. Get the files for the application ready:
+2. Configure the Omeka S files (i.e., "get the files for the application ready"):
   - Download the Omeka S files (in .ZIP) from the Omeka server at <https://omeka.org/s/download/>.
   - Unzip the files locally and prep them (this is mostly the addition of your database user information).
 3. Put the files on the server. This is mostly transferring the Omeka S program files to your server.
-4. Configure the web application. This is relatively basic and involves creating an initial login for the Omeka S platform (explained below).
+4. Configure the web application (i.e., "set up Omeka S"). This is relatively basic and involves creating an initial login for the Omeka S installation you have created.
 
 The process explained in detail below is also [outlined in the Omeka S User Manual](https://omeka.org/s/docs/user-manual/install/), but the details of the steps are not described. Here are those steps described as they should be carried out on your LAMP server:
 
@@ -36,12 +37,12 @@ Main steps include:
 
 #### Create a Directory for Omeka S on Your Server
 
-There are various ways that you can do this. You can use the file manager tool within cPanel, you can use ssh and mkdir, or you can create a new directory using FileZilla. **Whatever option you choose, make sure that the directory is located in the server’s `public_html` directory.** Keep in mind that the folder name you choose will shape the URLs for your repository, so choose something descriptive but also simple, like `omeka` or `omekas`.
+Check your server's `public_html` directory to ensure there are no files where you want to put your Omeka S install. There are various ways that you can do this. You can use the file manager tool within cPanel, you can use `ssh` and the shell, or you can view the directory using FileZilla. **Whatever option you choose, make sure that there is no existing folder with the name you plan to use in your `public_html` directory.** Keep in mind that the folder name of your Omeka S files will form the URLs for your repository, so choose something descriptive but also simple, like `omeka` or `omekas`.
 
-In the above example, if your username was `umsifan` and your directory was `omekas`, your site’s URI would look like this:
+In the above example, if your username was `umsifan` and you place your Omeka S files in `omekafan`, your site’s URI would look like this:
 
 ```
-http://umsifan.si676.si.umich.edu/omekas/
+http://umsifan.si676.si.umich.edu/omekafan/
 ```
 
 #### Create a New SQL Database on Your Server
@@ -64,15 +65,19 @@ Finally, assign the user to the database. This makes use of the “Add User to D
 
 ![Adding user to the database]({{ site.url }}{{ site.baseurl }}/assets/omekas-assignuserdb.jpg "Adding user to the database"){:style="border: 1px solid black;"}
 
-### Download Omeka S
+### Configure the Omeka S files
+
+Now, it's time to get the files for Omeka S.
+
+#### Download Omeka S
 
 Download the entire package of files for Omeka S from the Omeka website at: [https://omeka.org/s/download/](https://omeka.org/s/download/). This should arrive in a zip format. Unzip the files and take a look. It is interesting to look around the files and get an idea of how they are structured.
 
 Notice, for example, there are a lot of `.php` files but not many `.html` files. Why do you think that is?
 
-### Prepare Omeka S files locally
+#### Prepare Omeka S files locally
 
-After you’ve looked around, **find the file `database.ini` in the folder `config`**. This file contains the information that allows the Omeka files to talk to the SQL database. It has to have a user, a password, a database name, and a host name. This information will be used by the PHP files in Omeka to write new information to the database, create, read, update, delete, or whatever else it may need to do to access information in the database.
+After you’ve looked around, **find the file `database.ini` in the folder named `config`**. This file contains the information that allows the Omeka files to talk to the SQL database. It has to have a user, a password, a database name, and a host name. This information will be used by the PHP files in Omeka to write new information to the database, create, read, update, delete, or whatever else it may need to do to access information in the database.
 
 You can open this file as a plain text file using VSCode, or any other text editor. When you open the file, it should look like this:
 
@@ -89,9 +94,12 @@ host     = "localhost"
 
 Once you have the information entered, **make sure you save the file**.
 
-### Transfer Omeka S files to your server
+Finally, create a zip file of the folder containing all of the Omeka S files, and name it what you want your endpoint URL to be. For example, if `umsifan` wants their site to be at `https://umsifan.si676.si.umich.edu/omekafan/`, they should name their zip file
+`omekafan.zip`.
 
-Once the file is saved, use FileZilla to transfer all of the files and the directory tree to the server in the destination directory that you created in the first server setup step. In the case of your first install, that was suggested to be `omeka` or `omekas`.
+### Put the Omeka S files on the server
+
+Once your zip file is saved, use FileZilla to transfer the files to the server in the `public_html` folder.
 
 After the file transfer process is complete, you should be able to navigate in the browser to your server’s URL, and then add the name of the Omeka S directory at the end to display the Omeka S interface. It will look something like this:
 
