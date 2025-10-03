@@ -54,7 +54,7 @@ Log in to cPanel at your server using port `2083`.
 1. Open a web browser and use the following template for your URL: `https://YOUR-UNIQNAME.si676.si.umich.edu`
 2. At this page, you should see the unconfigured server page (basically, like a listing of files available there.
 3. To access the server, you can use the cPanel tools. To do this, access the above url with port 2083. To do this, append a colon (`:`) to the end of the URL and the number `2083`. For example, if your uniqname was `umsifan`, you would use the following URL to access cPanel: `https://umsifan.si676.si.umich.edu:2083`.
-4. The page that opens will prompt you for your login credentials. **Your username is your uniqname. Your password is your 8-digit UMID number.** So, if `umsifan`'s UMID was 12345678, their password would be `12345678`. Here's how the login page will look:
+4. The page that opens will prompt you for your login credentials. **Your username is your uniqname. Your password is your 8-digit UMID number followed by `-Fall2025`.** So, if `umsifan`'s UMID was 12345678, their password would be `12345678-Fall2025`. Here's how the login page will look:
 
 ![cPanel login via port 2083]({{ site.url }}{{ site.baseurl }}/assets/cpanel-login-port2083.jpg "Screenshot of cPanel login page at port 2083"){:style="border: 1px solid black;"}
 
