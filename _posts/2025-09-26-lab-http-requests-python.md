@@ -6,7 +6,7 @@ assigned: 2025-09-25
 due: 2025-10-02
 categories: activities web http requests python labs
 canvas-link: https://umich.instructure.com/courses/779862/assignments/2877256
-key: #lab-5-key
+key: lab-5-key
 published: true
 ---
 
