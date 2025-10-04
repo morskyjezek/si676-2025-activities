@@ -11,12 +11,6 @@ published: true
 
 In this assignment, you will be working to add sample collection content to your a new Omeka S that runs in the [previously installed Omeka S platform]({{ site.baseurl }}{% post_url 2025-10-02-lab-installing-omeka-s %}).
 
-======
-
-The final component of the project is to write a short reflective essay (300-500 words). You can start this as a log of your activities and thoughts while setting up the site. In addition, you should reflect on the process: what perspective on open source software does this give you? Have you changed any of your thoughts about the pros and cons of open source software? You can also be reflective: what steps are the easiest or most difficult? What is confusing, what is clear? Given the work involved, how satisfied are you with the site as it stands so far? If you have previously used Omeka (as a Software as a Service model), how do you feel about it now that you have had to set everything up (more like a Platform as a Service)? 
-
-======
-
 ## Configuring Your Omeka S Installation
 
 This assignment builds on the Omeka S site that you previously created.
@@ -42,6 +36,15 @@ That is, the same items from Assignment 1a, as indicated in the file [`loc-resou
 Your task is to restructure all of this into a format that allows you
 to load it into Omeka S, then republish it on the new Omeka site you created.
 Each item should publish on its own page and look something like [this sample page][sample-item-page].
+
+## Written Reflection
+
+The final component of the Assignment 1 is to write a short reflection (300-500 words) about the process of collecting the collection items, and the difference between working with a serverless site (in this case, CollectionBuilder) and the sites on the server you're maintaining (in this case, your Omeka S installation). While you do not have to answer each question, please use the following questions to guide your reflection:
+
+- What perspective on open source software does this give you? Have you changed any of your thoughts about the pros and cons of open source software?
+- What steps were the easiest or most difficult? What was most confusing, or most clear?
+- Given the work involved, how satisfied are your sites as they stand so far?
+- If you have previously used Omeka (as a Software as a Service model), how do you feel about it now that you have had to set everything up (more like a Platform as a Service)?
 
 ## Deliverables
 
