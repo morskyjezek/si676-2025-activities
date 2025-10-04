@@ -5,7 +5,7 @@ date:   2025-09-26
 assigned: 2025-10-02
 due: 2025-10-31
 categories: activities assignments python
-canvas-link: 
+canvas-link: https://umich.instructure.com/courses/779862/assignments/2877243
 published: true
 ---
 
