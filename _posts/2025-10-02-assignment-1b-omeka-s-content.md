@@ -32,17 +32,19 @@ In this step, you are adding a controlled vocabulary to Omeka S. The general ide
 
 ### 3. Add (Create) a New Site in Omeka S for a Sample Collection
 
+In this step, you will create a new site in your Omeka S install, which will be the home for the sample collection you gathered in Assignment 1a. You can follow the steps outlined in the [Adding an Omeka S Site guide]({{ site.baseurl }}{% post_url 2025-09-25-omeka-s-install-guide %}).
+
 The [sample CSV template for Omeka][csv-template] demonstrates how to structure the import CSV.
 
 ### Load Sample Collection Content
 
 Use the same collection items that you added to your CollectionBuilder site in Assignment 1a.
 To do this, you can reuse the digital objects that you already gathered from the Library of Congress.
-That is, the same items from Assignment 1a, as indicated in the file [`loc-resource-list.txt` located in the course data files repository](https://github.com/morskyjezek/si676-2025-data/blob/main/collection-site-materials/loc-resource-list.txt).
+That is, the same items from Assignment 1a, as indicated in the file [`loc-resource-list.txt` located in the course data files repository](https://github.com/morskyjezek/si676-2025-data/blob/main/collection-site-materials/loc-resource-list.txt). Each item should publish on its own page and look something like [this sample page][sample-item-page].
 
 Your task is to restructure all of this into a format that allows you
-to load it into Omeka S, then republish it on the new Omeka site you created.
-Each item should publish on its own page and look something like [this sample page][sample-item-page].
+to load it into Omeka S using the Import CSV module, then republish it on the new Omeka site you created.
+Alternatively, you can import the items by copying and pasting the metadata from your existing spreadsheet.
 
 ## Written Reflection
 
