@@ -7,7 +7,7 @@ canvas-link:
 published: true
 ---
 
-This page describes how to configure Omeka S. Before taking these steps, you need to [install and set up Omeka S on your server]({{ site.baseurl }}{% link _posts/2025-09-25-omeka-s-install-guide.md %})
+This page describes how to configure Omeka S. Before taking these steps, you need to [install and set up Omeka S on your server]({{ site.baseurl }}{% link _posts/2025-09-25-omeka-s-install-guide.md %}).
 
 ## Configuring Omeka S
 
