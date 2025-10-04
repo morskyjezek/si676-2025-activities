@@ -48,9 +48,10 @@ The final component of the Assignment 1 is to write a short reflection (300-500 
 
 ## Deliverables
 
-- Link to your new Omeka S site,
-  now populated with the four items and their metadata
+- Your Omeka S platform now includes the specified modules and vocabularies
+- Link to your new Omeka S site, populated with the four items and their metadata
 - Invite the course instructor as a user in your Omeka S site
+- Short written reflection (300-500 words)
 
 ## Resources
 
