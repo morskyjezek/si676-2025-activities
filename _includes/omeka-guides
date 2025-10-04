@@ -1,4 +1,4 @@
-{% assign omeka_posts = site.posts | where: "categories", "omeka" | sort: due | reverse %}
+{% assign omeka_posts = site.posts | where: "categories", "omeka" | where: "categories", "guides" %}
 
 {% if omeka_posts.size > 0 %}
 <ul>
