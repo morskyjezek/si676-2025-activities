@@ -38,7 +38,7 @@ To do this, move your command prompt to the modules folder (while this command i
 Once the files are moved into Omeka S's modules folder and unzipped,
 you can follow the instructions in the [Omeka S guide for "Installing Modules"](https://omeka.org/s/docs/user-manual/modules/#installing-modules).
 
-Additional modules can be added by following the same steps with any zipped package for an Omeka S module. For Assignment 2b, you need to install these modules:
+Additional modules can be added by following the same steps with any zipped package for an Omeka S module. For Assignment 1b, you need to install these modules:
 
 - CSV Import
 - Common
