@@ -13,7 +13,7 @@ published: true
 
 This page contains the information for *{{ page.title }}*.
 
-In this lab, you will be working to install and configure an instance of Omeka S on your servers. The process is a bit different than the process for the serverless sites, although the outcome (a published website that can host your digital content) is similar.
+In this lab, you will install Omeka S on your LAMP server. The process is a bit different than the process for the serverless sites, although the outcome (a published website that can host your digital content) is similar.
 
 Your site will run on UMSI servers that are preconfigured with a LAMP stack. We are using some variation of the Platform as a Service model, where PaaS is provided by UMSI: they are providing the compute power, storage, database management, server connections, and domain registration to publish to the Web. You, meanwhile, are setting up the Omeka S software and making configurations to modify the backend and frontend of the software per the instructions.
 
@@ -23,4 +23,4 @@ To install and get Omeka S up and running, follow the instructions in [Omeka S I
 
 ## Deliverables
 
-- Upload your responses [via the Canvas assignment]({{ page.canvas-link }}).
+- Upload a link to your Omeka S platform [via the Canvas assignment]({{ page.canvas-link }}).
