@@ -19,7 +19,7 @@ Your site will run on UMSI servers that are preconfigured with a LAMP stack. We 
 
 In other words, UMSI is your cloud provider. In this case, they are running the LAMP stack (ie, Linux/Apache/MySQL/PHP), which provides the operating system, server, database, and program scripts that generate the HTML pages; Omeka provides all of the instructions to these systems to create the administration interface (backend) and the presentation for the public (frontend). We are able to interact with these systems using a shell interface (using basically the same commands and interactions that we used locally using the SSH or Secure Shell which provides security of data packets across the internet layer) and using the browser (we will be using an interface called cPanel, which opens up in the browser and provides access to the server).
 
-To install and get Omeka S up and running, follow the instructions in [Omeka S Install Guide]({{ site.baseurl }}{% link _posts/2025-10-02-lab-installing-omeka-s.md %})
+To install and get Omeka S up and running, follow the instructions in [Omeka S Install Guide]({{ site.baseurl }}{% post_url 2025-09-25-omeka-s-install-guide %})
 
 ## Deliverables
 
