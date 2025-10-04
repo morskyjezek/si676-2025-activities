@@ -5,7 +5,7 @@ date:   2025-10-01
 assigned: 2024-10-03
 due: 2025-10-16
 categories: assignments web omeka servers
-canvas-link: 
+canvas-link: https://umich.instructure.com/courses/779862/assignments/2877245
 published: true
 ---
 
@@ -40,7 +40,7 @@ Each item should publish on its own page and look something like [this sample pa
 
 ## Resources
 
-- [Installing Omeka S Guide]({{ site.url }}{% post_url 2025-09-25-omeka-s-install-guide %})
+- [Installing Omeka S Guide]({{ site.url }}{{ site.baseurl }}{% post_url 2025-09-25-omeka-s-install-guide %})
 - [Assignment page on canvas]({{ page.canvas-link }})
 
 [csv-template]: 
