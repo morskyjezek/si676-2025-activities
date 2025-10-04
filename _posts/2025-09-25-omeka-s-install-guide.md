@@ -109,7 +109,7 @@ After the file transfer process is complete, you should be able to navigate in t
 
 If you are seeing a page like the one above, then your Omeka S instance should be ready to go. To get started, fill in the initial user form and click the “Submit” button at the bottom of the page.
 
-The final steps are to configure Omeka S with new sites, modules, users, and the collection content. To get started on that, the next step is [Omeka S configuration]({{ site.baseurl }}{% link _posts/2025-09-26-omeka-s-configuration-guide.md %}).
+There is more work to do to get sites and collections running, but if you completed the above, then your Omeka S platform is ready to go. The next steps will be to configure Omeka S so it can publish new sites, modules, users, and the collection content. These will be parts of the next assignment and described in the [Omeka S configuration guide]({{ site.baseurl }}{% link _posts/2025-09-26-omeka-s-configuration-guide.md %}).
 
 ## Resources
 
