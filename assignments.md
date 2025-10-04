@@ -6,7 +6,7 @@ permalink: /assignments/
 
 This page lists the assignments, which are major steps in the term project:
 
-{% assign assignments = site.posts | where: "categories", "assignments" %}
+{% assign assignments = site.posts | where: "categories", "assignments" | sort: due %}
 
 {% if assignments.size > 0 %}
 | Assignment | Due Date | Canvas Link |
