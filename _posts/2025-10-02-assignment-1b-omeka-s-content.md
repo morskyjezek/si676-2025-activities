@@ -17,13 +17,20 @@ This assignment builds on the Omeka S site that you previously created.
 Your site and content should be created in the Omeka S installation from [last week's lab]({{ site.baseurl }}{% post_url 2025-10-02-lab-installing-omeka-s %}).
 To the basic installation you already have, you will complete the site configuration, including:
 
-- Add Omeka S Modules
-- Add Vocabularies
-- Add an Omeka site
+1. Add Omeka S Modules
+2. Add Vocabularies
+3. Add an Omeka site
 
-### Create a New Site in Omeka S for a Sample Collection
+### 1. Add (Install) Omeka S Modules
 
-### Install the Import CSV Module
+In this step, you are adding new Omeka S modules, which will extend Omeka's functionality.
+To add modules, follow the steps in the [Adding Modules to Omeka S guide]({{ site.baseurl }}{% post_url 2025-09-26-omeka-s-adding-modules %}).
+
+### 2. Add (Install) Vocabularies
+
+In this step, you are adding a controlled vocabulary to Omeka S. The general idea is similar to adding a module, as it does add functionality, but this step can be completed within Omeka, it does not involve adding new files to your server. To add a vocabulary, follow the steps in the [Adding Vocabularies to Omeka S guide]({{ site.baseurl }}{% post_url 2025-09-26-omeka-s-adding-vocabularies %}).
+
+### 3. Add (Create) a New Site in Omeka S for a Sample Collection
 
 The [sample CSV template for Omeka][csv-template] demonstrates how to structure the import CSV.
 
