@@ -2,7 +2,7 @@
 layout: post
 title:  "Setting Up a Jekyll Static Site"
 date:   2025-09-02
-categories: activities jekyll guides
+categories: activities jekyll guides serverless
 published: true
 ---
 

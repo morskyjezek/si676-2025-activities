@@ -2,7 +2,7 @@
 layout: post
 title:  "Collection Builder Starter Guide"
 date:   2025-09-20
-categories: guides jekyll collectionbuilder
+categories: guides jekyll collectionbuilder serverless
 published: true
 ---
 
