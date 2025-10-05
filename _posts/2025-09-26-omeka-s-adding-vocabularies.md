@@ -2,7 +2,7 @@
 layout: post
 title:  "Adding Vocabularies to Omeka S"
 date:   2025-09-26
-categories: guides omeka vocabularies
+categories: guides omeka
 published: true
 ---
 
