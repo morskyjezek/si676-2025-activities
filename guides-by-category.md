@@ -32,7 +32,7 @@ published: true
 {% comment %}create headings for each category, then list posts in that category{% endcomment %}
 <h2>Guides by Topic</h2>
 {% for category in unique_categories %}
-  <h3 id="{{ category | downcase | url_escape | strip | replace: ' ', '-' }}">{{ category | camelcase }}</h3>
+  <h3 id="{{ category | downcase | url_escape | strip | replace: ' ', '-' }}">{{ category | capitalize }}</h3>
   <ul>
     {% assign category_posts = guides | where_exp: "post", "post.categories contains category" %}
     {% for post in category_posts %}
