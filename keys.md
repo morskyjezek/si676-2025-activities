@@ -2,6 +2,7 @@
 layout: page
 title: Keys
 permalink: /keys/
+published: false
 ---
 
 This page lists the key to the lab activities:
