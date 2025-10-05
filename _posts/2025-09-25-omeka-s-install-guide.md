@@ -6,10 +6,12 @@ categories: guides omeka servers
 published: true
 ---
 
-This page describes how to install Omeka S on your servers. This is a multi-step process, which requires you to gather the Omeka S files, configure and prepare them, set up a database for the platform to use, and finally making all of that work on your LAMP server.
+This guide offers a step-by-step walkthrough of how to install Omeka S on your servers. This is a multi-step process, which requires you to gather the Omeka S files, configure and prepare them, set up a database for the platform to use, and finally to make all of that work on your LAMP server.
 
-In case you were wondering, it is unlikely you would have to install the tools in this way, but hopefully this will help you to see how the various components fit together. It is more likely that your server will have a tool that helps you to install things like this. One common one is called *Softaculous*. Installing Omeka "manually" like this requires you to work with the various elements of the overall LAMP server architecture, particularly the file system - LINUX - and databases - MySQL. The Apache server is handling the HTTP requests and tasks that display the cPanel interface, and any of the interactions between the platform components are likely communicating to the databases via PHP.
-For the most part, though, you don’t need to worry about how those components interact once this installation step is completed.
+While it is unlikely that you would need to install the tools in this way, hopefully this process helps you to see how the various components fit together. Installing Omeka "manually" like this requires you to work with the various elements of the overall LAMP server architecture, particularly the file system - LINUX - and databases - MySQL. The Apache server is handling the HTTP requests and tasks that display the cPanel interface, and any of the interactions between the platform components are likely communicating to the databases via PHP.
+For the most part, though, you don’t need to worry about how those components interact after completing this installation step.
+
+It is more likely in "real life," which is to say in a production environment, that someone else will manage server provisioning or you will use a tool that helps you to install things like this. One current tool of this sort is called *Softaculous*.
 
 ## Installing Omeka S Manually
 
