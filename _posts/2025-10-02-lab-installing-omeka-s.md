@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lab: Installing & Configuring Omeka S"
+title:  "Lab: Installing Omeka S"
 date:   2025-10-02
 assigned: 2025-10-03
 due: 2025-10-09
