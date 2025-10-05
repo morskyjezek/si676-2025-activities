@@ -25,7 +25,7 @@ published: true
 <ul>
 {% for category in unique_categories %}
   {% assign category_posts = guides | where_exp: "post", "post.categories contains category" %}
-  <li><a href="#{{ category | downcase | url_escape | strip | replace: ' ', '-' }}">{{ category | camelcase}}</a></li>
+  <li><a href="#{{ category | downcase | url_escape | strip | replace: ' ', '-' }}">{{ category | camelcase}}</a> ({% if category_posts.size == 1 %}{{ category_posts.size }} guide{% else %}{{ category_posts.size}} guides{% endif %})</li>
 {% endfor %}
 </ul>
 
