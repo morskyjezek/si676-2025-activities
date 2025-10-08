@@ -6,7 +6,7 @@ assigned: 2025-10-03
 due: 2025-10-09
 categories: activities servers omeka labs
 canvas-link: https://umich.instructure.com/courses/779862/assignments/2900388
-key: #lab-6-key
+key: lab-6-key
 published: true
 ---
 
