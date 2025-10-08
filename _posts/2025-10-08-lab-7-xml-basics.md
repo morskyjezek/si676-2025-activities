@@ -38,6 +38,7 @@ subject - Bridges
 subject - Cars
 rights - Copyright Not Evaluated
 rights - http://rightsstatements.org/vocab/CNE/1.0/
+relation - https://dp.la/item/e214f9b1af1954cca55acec276cef9f2
 ```
 
 ## Resources
