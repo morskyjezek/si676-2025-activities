@@ -20,7 +20,24 @@ This is the page for *{{ page.title }}*.
 4. How do you work with prefixed namespaces in the ET module? How do you assign prefixes for use within path addresses? How do you assign namespaces for writing out a valid XML with namespace declarations and prefixes?
 5. Write python code that will encode the following DublinCore fields in valid XML. The root tag should be `metadata`, it should output appropriately namespaced fields (i.e., using `dcterms:`). Encode the following fields:
 ```
-
+title - Oldsmobiles Crossing the Mackinac Bridge
+identifier - 2017-03-001.007.052
+source - https://cadl.catalogaccess.com/archives/11662
+provenance - https://www.cadl.org/
+provenanceStatement - Original shared by the Capital Area District Libraries (CADL)
+creator - Oldsmobile History Center
+creator - https://cadl.catalogaccess.com/people/1320
+created - Unknown
+date - 1960s/1970s
+subject - Lansing (Mich.)
+subject - Ingham County (Mich.)
+subject - Parades & processions
+subject - Oldsmobile automobile
+subject - Mackinac Bridge
+subject - Bridges
+subject - Cars
+rights - Copyright Not Evaluated
+rights - http://rightsstatements.org/vocab/CNE/1.0/
 ```
 
 ## Resources
