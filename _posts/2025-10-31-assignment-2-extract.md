@@ -103,9 +103,9 @@ and a directory with JSON item files representing each item in the collection.
 * [Example pulling a collection list from loc.gov][loc-gov-collection-list-demo]
 * [Example harvesting JSON item data and images from loc.gov][loc-gov-item-demo]
 
-[loc-gov-collection-list-demo]: https://github.com/morskyjezek/si676-2024-data/blob/main/examples/assignment-extract-1-collection-list.ipynb
-[sample-collection-list-csv]: https://github.com/morskyjezek/si676-2024-data/blob/main/collection-project/collection_set_list-sample.csv
-[loc-gov-item-demo]: https://github.com/morskyjezek/si676-2024-data/blob/main/examples/assignment-extract-2-collection-items.ipynb
+[loc-gov-collection-list-demo]: https://github.com/morskyjezek/si676-2025-data/blob/main/examples/assignment-extract-1-collection-list.ipynb
+[sample-collection-list-csv]: https://github.com/morskyjezek/si676-2025-data/blob/main/collection-site-materials/metadata-template-omekas.csv
+[loc-gov-item-demo]: https://github.com/morskyjezek/si676-2025-data/blob/main/examples/assignment-extract-2-collection-items.ipynb
 
 ### Notes
 
