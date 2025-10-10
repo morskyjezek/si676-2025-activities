@@ -11,7 +11,7 @@ This page describes how to configure Omeka S. Before taking these steps, you nee
 
 ## Configuring Omeka S
 
-These instructions also explain the main steps you must take to complete assignment #2 (see last step).  
+These instructions also explain the main steps you must take to complete assignment #1b (see last step).  
 
 These instructions assume that you already have a working Omeka S instance, and that you know how to sign in to your server. (Those steps were covered [in the install guide]({{ site.baseurl }}{% link _posts/2025-09-25-omeka-s-install-guide.md %}).)
 
