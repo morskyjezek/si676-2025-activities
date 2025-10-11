@@ -41,10 +41,15 @@ rights - http://rightsstatements.org/vocab/CNE/1.0/
 relation - https://dp.la/item/e214f9b1af1954cca55acec276cef9f2
 ```
 
+## Deliverables
+
+- Upload your responses [via the Canvas assignment]({{ post.canvas-link }}).
+
 ## Resources
 
-* [XML Intro to Basic Functions notebook from course GitHub][basics-notebook]
-* [Assignment page on Canvas]({{ page.canvas-link }})
+- [Intro to Basic XML Usage in Python (Jupyter notebook from course GitHub)][basics-notebook]
+- [Building Basic, Well-Formed DublinCore records with Python XML tools][xml-basic-dublincore]
+- [Slides from Class][xml-slides]
 
 [basics-notebook]: https://github.com/morskyjezek/si676-2025-data/blob/main/examples/xml-intro-basic-functions-ET.ipynb
 [xml-basic-dublincore]: https://github.com/morskyjezek/si676-2025-data/blob/main/examples/xml-generate-basic-dublin-core.ipynb
