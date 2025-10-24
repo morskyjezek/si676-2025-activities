@@ -6,7 +6,7 @@ assigned: 2025-10-10
 due: 2025-10-23
 categories: activities xml xpath python labs
 canvas-link: https://umich.instructure.com/courses/779862/assignments/2877257
-key: #lab-7-key
+key: lab-7-key
 published: true
 ---
 
