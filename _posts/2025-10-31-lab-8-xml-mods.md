@@ -10,7 +10,7 @@ key:
 published: true
 ---
 
-For the following activities, answer using the [25 MODS records file (linked)](https://github.com/morskyjezek/si676-2025-data/blob/main/data/xml/2018_lcwa_MODS_25.xml). Use the Jupyter notebook that explores MODS as a reference; many of the actions are demonstrated there with the collection of 5 MODS records, or answering similar questions.
+For the following activities, answer using the [25 MODS records file (linked)](https://github.com/morskyjezek/si676-2025-data/blob/main/data/xml/2018_lcwa_MODS_25.xml). Use the [Jupyter notebook that explores MODS](https://github.com/morskyjezek/si676-2025-data/blob/main/examples/xml-working-with-MODS.ipynb) as a reference; many of the actions are demonstrated there with the collection of 5 MODS records, or answering similar questions.
 
 Work in a Jupyter notebook, as demonstrated in class, or a python file to answer the following questions:
 
