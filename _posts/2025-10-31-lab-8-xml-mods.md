@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lab: Working with MODS"
+title:  "Lab: Working with MODS in XML"
 date:   2025-10-30
 assigned: 2025-10-31
 due: 2025-11-06
