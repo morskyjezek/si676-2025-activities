@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Omeka S Guide: Fix Thumbnailer"
-date:   2024-12-01
+date:   2025-11-01
 categories: guides omeka
-published: false
+published: true
 ---
 
 This guide describes how to modify some of the Omeka S files so that your site can autmatically create thumbnail images. Omeka S uses an external, open-source library called [ImageMagick](https://en.wikipedia.org/wiki/ImageMagick) for standard image manipulations like resizing, cropping, creating thumbnails, etc. Without the fix described below, ImageMagick fails when Omeka calls it because it uses a command that is not available in the our servers' operating system.
@@ -47,4 +47,6 @@ Follow these steps to modify the way that Omeka S calls ImageMagick so that it w
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VwCh7L8L2hc?si=2Fw8OamoOCB_gRxO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-{TODO: add video embed [https://youtu.be/VwCh7L8L2hc](https://youtu.be/VwCh7L8L2hc) and also embedded at}
+## Resources
+
+{% include omeka-guides %}
