@@ -9,7 +9,7 @@ layout: default
 
   {{ content }}
 
-  {% assign assignments = site.posts | where: "categories", "assignments" %}
+  {% assign assignments = site.posts | where: "categories", "assignments" | sort: "due" | reverse %}
   {% if assignments.size > 0 %}
     <h2 class="post-list-heading" id="assignments">Assignments for Term Project</h2>
     <ul class="post-list">
