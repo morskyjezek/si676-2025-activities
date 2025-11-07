@@ -6,7 +6,7 @@ assigned: 2025-10-31
 due: 2025-11-06
 categories: activities mods xml xpath python labs
 canvas-link: https://umich.instructure.com/courses/779862/assignments/2877258
-key: #lab-8-key
+key: lab-8-key
 published: true
 ---
 
