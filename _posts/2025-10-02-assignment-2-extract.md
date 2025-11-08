@@ -9,8 +9,6 @@ canvas-link: https://umich.instructure.com/courses/779862/assignments/2877243
 published: true
 ---
 
-This page contains the information for *{{ page.title }}*.
-
 In this step of the course project to build multiple collections platforms,
 you are working to *extract* data for your collection sites.
 this is the first step in building up a generic workflow that could
