@@ -64,7 +64,7 @@ collection lists, item metadata, and item digital files. Create all of this in a
 Your directory structure should look something like this:
 
 ```
-collection-data
+collection-data-extraction
 ├── collection-extract-tools.ipynb
 ├── ftu-libraries-set-info.json
 ├── ftu-libraries-set-list.csv
