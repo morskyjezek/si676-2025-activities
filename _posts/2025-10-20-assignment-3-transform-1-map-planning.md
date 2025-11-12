@@ -25,16 +25,23 @@ The large metadata sheet linked above should have data about all of the objects 
 
 The bulk of the work is in modeling the metadata you're receiving, then deciding how these fields are will be used in your new site. Your task is to: document the kinds of metadata that already appear in the data from the museum, then plan where they go in your digital repository site. The key is to identify which types of information are used, their granularity, and their relationship to the items as well as more broadly to the collection (that is, can likely be expressed in a generic DublinCore profile). (Additional, but more conceptual, guidelines for designing DublinCore Application Profiles are at [link to DublinCore application profile guidelines](https://www.dublincore.org/specifications/dublin-core/profile-guidelines/).)
 
-## Possible destination metadata schemes
+## Researching metadata schemes
 
-To the extent possible, your destination fields should come from standardized (or at least known) extant metadata schemes. A large majority of these can come from DublinCore, but it is expected that you will find they do not have the granularity to accurately describe all of the terms in the museum data.
+To the extent possible, your destination fields should come from standardized (or at least known) extant metadata schemes. A large majority of these can come from DublinCore, but you will find that DublinCore does not have the granularity to accurately describe all of the terms in the museum data. You should therefore investigate fields from at least one other scheme.
 
-It is likely that many of your needs will ber served with DublinCore terms, but given the nature of the data, it is likely that you will need additional terms. Here are some additional schemes to consider, with links to their description and documentation:
+Here are some additional schemes to consider, with links to their description and documentation:
 
 - [DublinCore Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/) ([Wikipedia](https://en.wikipedia.org/wiki/Dublin_Core))
 - [MODS](http://www.loc.gov/standards/mods/) ([Metadata Standards Catalog entry](https://rdamsc.bath.ac.uk/msc/m97), Wikipedia)
 - [LIDO](https://cidoc.mini.icom.museum/working-groups/lido/lido-overview/lido-schema/) (Metadata Standards Catalog, [Wikipedia](https://en.wikipedia.org/wiki/LIDO))
 - [CCO (Cataloging Cultural Objects)](https://www.vraweb.org/cco) ([Wikipedia](https://en.wikipedia.org/wiki/Visual_Resources_Association#Cataloguing_Cultural_Objects_(CCO)))
+
+An additional resource that may be of use in researching schemes and other metadata fields
+is the [Linked Open Vocabularies (LOV) database](https://lov.linkeddata.es/dataset/lov),
+which provides a search interface for metadata schemes,
+but also provides the capacity to search across term/field names. This does not include all
+schemes, but it does include most that are used in cultural heritage and are also represented
+in a formal schema definition or ontology. The term search can be found directly at <https://lov.linkeddata.es/dataset/lov/terms>.
 
 ## Metadata crosswalking resources
 
