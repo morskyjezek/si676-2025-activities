@@ -23,6 +23,8 @@ The large metadata sheet linked above should have data about all of the objects 
 | Ethnographic Objects | [Dropbox folder](https://www.dropbox.com/scl/fo/zkje8i46nbniq73ohc0va/ABkfBybLu-A5dBGEu0Pvi3k?rlkey=hw3dvwm7f3gwjgo764npkf9ar&st=qiduopev&dl=0) (requires same password as above) |
 | Textiles             | [Dropbox folder](https://www.dropbox.com/scl/fo/v65i3gpq12doz6soujnj7/AL_gY7wZbuO-dnjffwmXtAE?rlkey=7vg1ltodurlxy4tbn9t45159t&st=vb4afp2e&dl=0) (requires same password as above) |
 
+You can access [all of the digitized object files and data in this dropbox folder](https://www.dropbox.com/scl/fo/wuegxdc1a8ptzgyrz3a40/AFTTxYdJ-PYwPyyBdlWxQk8?rlkey=vgosvxx14crnrd9fwio7i351g&st=8k3fx7fl&dl=0) (U-M login may be required).
+
 The bulk of the work is in modeling the metadata you're receiving, then deciding how these fields are will be used in your new site. Your task is to: document the kinds of metadata that already appear in the data from the museum, then plan where they go in your digital repository site. The key is to identify which types of information are used, their granularity, and their relationship to the items as well as more broadly to the collection (that is, can likely be expressed in a generic DublinCore profile). (Additional, but more conceptual, guidelines for designing DublinCore Application Profiles are at [link to DublinCore application profile guidelines](https://www.dublincore.org/specifications/dublin-core/profile-guidelines/).)
 
 ## Researching metadata schemes
