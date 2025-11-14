@@ -40,6 +40,7 @@ Here are some additional schemes to consider, with links to their description an
 - [DublinCore Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/) ([Wikipedia](https://en.wikipedia.org/wiki/Dublin_Core))
 - [MODS](http://www.loc.gov/standards/mods/) ([Metadata Standards Catalog entry](https://rdamsc.bath.ac.uk/msc/m97), Wikipedia)
 - [CIDOC CRM](https://cidoc-crm.org/), leading object-focused Conceptual Reference Model maintained by the International Council on Museums ([eCRM OWL file](https://github.com/erlangen-crm/ecrm/blob/master/ecrm_current.owl), [wikipedia article](https://en.wikipedia.org/wiki/CIDOC_Conceptual_Reference_Model))
+- The *schema.org* ontologies ([download ontology files here](https://schema.org/docs/developers.html), [Wikipedia](https://en.wikipedia.org/wiki/Schema.org))
 - [LIDO](https://cidoc.mini.icom.museum/working-groups/lido/lido-overview/lido-schema/) (Metadata Standards Catalog, [Wikipedia](https://en.wikipedia.org/wiki/LIDO))
 - [CCO (Cataloging Cultural Objects)](https://www.vraweb.org/cco) ([Wikipedia](https://en.wikipedia.org/wiki/Visual_Resources_Association#Cataloguing_Cultural_Objects_(CCO)))
 
