@@ -41,6 +41,8 @@ Here are some additional schemes to consider, with links to their description an
 - [LIDO](https://cidoc.mini.icom.museum/working-groups/lido/lido-overview/lido-schema/) (Metadata Standards Catalog, [Wikipedia](https://en.wikipedia.org/wiki/LIDO))
 - [CCO (Cataloging Cultural Objects)](https://www.vraweb.org/cco) ([Wikipedia](https://en.wikipedia.org/wiki/Visual_Resources_Association#Cataloguing_Cultural_Objects_(CCO)))
 
+Questions will undoubtedly arise as you are working with the data. Because we can be in touch with the data creators (a luxury that is not always possible!), please [note your questions about the data in this shared doc](https://docs.google.com/document/d/1J7vB2i2CcuB8B0JZD9eDlSy2kp8LUcdQ-KD3Iw4N-YY/edit?usp=sharing), so they can be grouped and shared to the UMMAA collection managers. 
+
 An additional resource that may be of use in researching schemes and other metadata fields
 is the [Linked Open Vocabularies (LOV) database](https://lov.linkeddata.es/dataset/lov),
 which provides a search interface for metadata schemes,
