@@ -54,7 +54,7 @@ in a formal schema definition or ontology. The term search can be found directly
 
 - Mary S. Woodley, “Metadata Matters: Connecting People and Information,” in _Introduction to Metadata_, ed. and rev. Murtha Baca, 3rd edition (Getty Publications, 2016), available at [https://www.getty.edu/publications/intrometadata/metadata-matters/](https://www.getty.edu/publications/intrometadata/metadata-matters/).  
 - Digital Library Federation Metadata Application Profile Clearinghouse, available at [https://dlfmetadataassessment.github.io/MetadataSpecsClearinghouse/](https://dlfmetadataassessment.github.io/MetadataSpecsClearinghouse/)
-- Dublin Core Metadata Initiative (DCMI), “DC Tabular Application Profiles,” ed. Karen Coyle, online at [https://www.dublincore.org/groups/application-profiles/dctap-primer/](https://www.dublincore.org/groups/application-profiles/dctap-primer/) 
+- Dublin Core Metadata Initiative (DCMI), “DC Tabular Application Profiles,” ed. Karen Coyle, online at [https://www.dublincore.org/groups/application-profiles/dctap-primer/](https://www.dublincore.org/groups/application-profiles/dctap-primer/)
 
 ## MAP Examples / Templates
 
