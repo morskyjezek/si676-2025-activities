@@ -15,6 +15,8 @@ A **metadata application profile (MAP)** is a technical document that documents 
 
 For this assignment, each team is tasked with designing a MAP for a set of objects from the [University of Michigan Museum of Anthropological Archaeology (UMMAA)](https://lsa.umich.edu/ummaa). These objects are selected from the University's various collections relating to the Philippines. More [information about the collections has been assembled by the ReConnect/ReCollect project](https://www.reconnect-recollect.com/the-philippine-collections/). Their website offers a useful overview, and if you are interested in learning more about why these collections are at the university and the conditions under which they were collected, I recommend watching Professor Deirdre de la Cruz's talk for the Making Michigan series, ["A Difficult Archive" (October 13, 2022)](https://www.youtube.com/watch?v=dbGdvxvV4r0). An additioanl resource is the UMMAA's current curated presentation of selected objects from the collection, found at [Philippine Collections UMMAA](https://sites.lsa.umich.edu/ummaa-philippines/).
 
+The bulk of the work is in modeling the metadata you're receiving, then deciding how these fields are will be used in your new site. Your task is to: document the kinds of metadata that already appear in the data from the museum, then plan where they go in your digital repository site. The key is to identify which types of information are used, their granularity, and their relationship to the items as well as more broadly to the collection (that is, can likely be expressed in a generic DublinCore profile). (Additional, but more conceptual, guidelines for designing DublinCore Application Profiles are at [link to DublinCore application profile guidelines](https://www.dublincore.org/specifications/dublin-core/profile-guidelines/).)
+
 Each group's MAP will likely be similar, but each team should develop their own. Start by working with the fields associated with your object type in the [large metadata spreadsheet](https://www.dropbox.com/scl/fi/l9ej5ssttmeraagx13hgj/UMMAA_all_Philippine_objects-for_distribution.xlsx?rlkey=zy7dku758a9xgku677pdgq5im&st=1g6c5ki1&dl=0).
 
 The large metadata sheet linked above should have data about all of the objects in the Philippine collections. Each group is tasked with a specific subset of objects, specified by obejct type. Use the following table to link to the objects for each type:
@@ -27,7 +29,7 @@ The large metadata sheet linked above should have data about all of the objects 
 
 You can access [all of the digitized object files and data in this dropbox folder](https://www.dropbox.com/scl/fo/wuegxdc1a8ptzgyrz3a40/AFTTxYdJ-PYwPyyBdlWxQk8?rlkey=vgosvxx14crnrd9fwio7i351g&st=8k3fx7fl&dl=0) (U-M login may be required).
 
-The bulk of the work is in modeling the metadata you're receiving, then deciding how these fields are will be used in your new site. Your task is to: document the kinds of metadata that already appear in the data from the museum, then plan where they go in your digital repository site. The key is to identify which types of information are used, their granularity, and their relationship to the items as well as more broadly to the collection (that is, can likely be expressed in a generic DublinCore profile). (Additional, but more conceptual, guidelines for designing DublinCore Application Profiles are at [link to DublinCore application profile guidelines](https://www.dublincore.org/specifications/dublin-core/profile-guidelines/).)
+Questions will undoubtedly arise as you are working with the data. Because we can be in touch with the data creators (a luxury that is not always possible!), please [note your questions about the data in this shared doc](https://docs.google.com/document/d/1J7vB2i2CcuB8B0JZD9eDlSy2kp8LUcdQ-KD3Iw4N-YY/edit?usp=sharing), so they can be grouped and shared to the UMMAA collection managers.
 
 ## Researching metadata schemes
 
@@ -40,8 +42,6 @@ Here are some additional schemes to consider, with links to their description an
 - [CIDOC CRM](https://cidoc-crm.org/), leading object-focused Conceptual Reference Model maintained by the International Council on Museums ([eCRM OWL file](https://github.com/erlangen-crm/ecrm/blob/master/ecrm_current.owl), [wikipedia article](https://en.wikipedia.org/wiki/CIDOC_Conceptual_Reference_Model))
 - [LIDO](https://cidoc.mini.icom.museum/working-groups/lido/lido-overview/lido-schema/) (Metadata Standards Catalog, [Wikipedia](https://en.wikipedia.org/wiki/LIDO))
 - [CCO (Cataloging Cultural Objects)](https://www.vraweb.org/cco) ([Wikipedia](https://en.wikipedia.org/wiki/Visual_Resources_Association#Cataloguing_Cultural_Objects_(CCO)))
-
-Questions will undoubtedly arise as you are working with the data. Because we can be in touch with the data creators (a luxury that is not always possible!), please [note your questions about the data in this shared doc](https://docs.google.com/document/d/1J7vB2i2CcuB8B0JZD9eDlSy2kp8LUcdQ-KD3Iw4N-YY/edit?usp=sharing), so they can be grouped and shared to the UMMAA collection managers. 
 
 An additional resource that may be of use in researching schemes and other metadata fields
 is the [Linked Open Vocabularies (LOV) database](https://lov.linkeddata.es/dataset/lov),
