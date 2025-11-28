@@ -23,6 +23,13 @@ One challenge of this load step will be to match and prepare images for ingest.
 You will need to identify a way to match image files to the metadata records corresponding to that object, so in the presentation they will be linked together.
 This should be possible by matching the object ID to the matching ID in the image file. (This may be possible using regular expressions, or alternatively using a fuzzy matching approach with a library like `fuzzywuzzy`.)
 
+One new situation you may need to address is that multiple digital images may correspond
+to one metadata record. Both Omeka S and CollectionBuilder can handle this case.
+In Omeka S, you can ingest multiple files per item if you us the API,
+or you can ingest images and match them individually to metadata records.
+In CollectionBuilder, additional images are appended into the site data
+records, without a new collection ID, [as described in the documentation for Compound Objects](https://collectionbuilder.github.io/cb-docs/docs/metadata/compound-objects/).
+
 ### Quality Control
 
 You should have a basic way to check on your workflow's performance.
