@@ -15,7 +15,7 @@ There will be a few distinct steps here, including: preparing resource metadata 
 
 ### Resource Metadata (CSV/JSON implementation of your MAP)
 
-You will need to ensure that your metadata transformation workflow is implementing your map correctly. Note that you may need to work out some text formatting to correctly display the information as desired on your presentation site. If you use CSV as your ingest format, a relatively small number of changes should be required to modify your code from [Assignment 4]({% link _posts/2025-10-30-assignment-4-transform-2-implementation.md %}).
+You will need to ensure that your metadata transformation workflow is implementing your map correctly. Note that you may need to work out some text formatting to correctly display the information as desired on your presentation site. If you use CSV as your ingest format, a relatively small number of changes should be required to modify your code from [Assignment 4]({{ site.baseurl }}{% link _posts/2025-10-30-assignment-4-transform-2-implementation.md %}).
 
 ### Digital Content (Images of as many objects as possible)
 
